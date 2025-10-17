@@ -1,0 +1,24 @@
+.navbar {
+    --bs-navbar-padding-y: 0.8rem;
+}
+
+.navbar-nav {
+    gap: 70px;
+}
+
+box .btn-fix {
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    box-shadow: 0, 0, 0, 2, rgba(#0000004b);
+}
+
+.logBtn {
+    background-color: #fff;
+
+}
+
+.signBtn {
+    background-color: var(--second-color);
+}

@@ -1,4 +1,6 @@
 :root {
-    --primary: var(#49BBBD);
+    --primar-color: var(#49BBBD);
+    --second-color: var(#49bbbda6);
     --mainfont: 'Poppins', sans-serif;
+
 }
