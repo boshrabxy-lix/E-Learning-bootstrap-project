@@ -22,3 +22,49 @@ box .btn-fix {
 .signBtn {
     background-color: var(--second-color);
 }
+.hero{
+    background-image: url(../img/index-landing/Header.webp);
+    background-size: cover;
+}
+.hero h2 {
+    font-size: 54px;
+}
+.hero p{
+    font-size: 24px;
+}
+.hero h2 span {
+    color:#F48C06;
+}
+.hero .btn .btn-link .bg-light{
+text-decoration: none;
+font-size:24px;
+background-color: #ffffff31;
+padding:22px 38px;
+border-radius: 50px;
+color:#fff;
+
+}
+.hero .a-style{
+    font-size: 24px;
+    color:#252641;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.Success{
+    padding:120px 0;
+    
+}
+.details{
+    margin-top: 101px;
+    
+}
+.success h2{
+
+}
+.success h3{
+
+}
+.success p{
+    
+}
