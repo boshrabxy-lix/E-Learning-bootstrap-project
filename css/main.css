@@ -1,10 +1,9 @@
 :root {
     --primar-color: var(#49BBBD);
     --second-color: var(#49bbbda6);
-    --mainfont: 'Poppins', sans-serif;
+    --mainfont: 'Poppins', sans-serif ,"Poppins-Bold", Helvetica;
 
 }
 body{
     height: 5000px;
 }
-
