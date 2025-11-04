@@ -1,5 +1,7 @@
 .navbar {
-    --bs-navbar-padding-y: 0.8rem;
+    --bs-navbar-padding-y: 0.011rem;
+    background-color: #4abbbe;
+    z-index: 10000;
 }
 
 .navbar-nav {
@@ -20,7 +22,6 @@
 
 .logBtn {
     background-color: #fff;
-
 }
 
 .signBtn {
@@ -57,6 +58,8 @@
     color: #252641;
     text-decoration: none;
     margin-left: 20px;
+    border-radius: 50px;
+    background-color: #ffffff31;
 }
 
 @media screen and (max-width) {
@@ -69,7 +72,7 @@
 .Success {
     padding: 120px 0 100px;
     text-align: center;
-
+    justify-items: center;
 }
 
 .details {
@@ -155,11 +158,11 @@
 /* end all-in-one section */
 
 
-
 .what-is-totc {
     text-align: center;
     font-size: 44px;
     height: 708px;
+    justify-items: center;
 }
 
 .what-is-totc h2 span {
@@ -229,17 +232,40 @@
 }
 
 
-/*  */
-
-
+/*  you-can-doit section*/
 .you-can-doit {
-    background-image: ;
+    background-image: url(./../img/index-landing/You\ Can\ Do\ With\ TOTC.webp);
     text-align: left;
+    object-fit: fill;
+    width: 100%;
+    justify-items: center;
+}
+
+
+
+
+/* start our features section */
+.our-features {
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    padding: 60px 0;
+}
+
+.img-ditails {
+    box-shadow: ;
+    border-radius: 50px;
 }
 
 
 
 
 
-/* start our features section */
-.our-features {}
+
+
+
+
+
+
+
+/*Latest News and Resources */

@@ -5,5 +5,123 @@
 
 }
 body{
-    height: 5000px;
+   font-family: var(--mainfont);
+   
+}
+.container,
+.container-fluid,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+    --bs-gutter-x: 4.5rem;
+    --bs-gutter-y: 0;
+    width:100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: 120px;
+    margin-left: 120px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  
+}
+
+
+
+
+/* footer */
+.footer {
+    background-color: #252641;
+    color: #d1d5db;
+    padding: 60px 20px;
+}
+
+.footer .footer-logo {
+    gap: 25px;
+}
+
+.footer .footer-logo::after {
+    width: 10px;
+    color: #fff;
+}
+
+.footer .footer-logo img {
+    width: 90px;
+    transition: transform 0.3s ease;
+}
+
+.footer .footer-logo img:hover {
+    transform: scale(1.2);
+}
+
+.footer p {
+    color: #9ca3af;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.footer a {
+    color: #9ca3af;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s, text-shadow 0.3s;
+}
+
+.footer a:hover {
+    color: #3bd0d8;
+    text-shadow: 0 0 8px rgba(59, 208, 216, 0.6);
+
+}
+
+.footer .newsletter input {
+    border-radius: 30px;
+    padding: 10px 15px;
+    width: 250px;
+    outline: none;
+    border: none;
+    background-color: #1c1d33;
+    transition: box-shadow 0.3s ease;
+
+}
+
+.footer .newsletter input:focus {
+    box-shadow: 0 0 8px rgba(59, 208, 216, 0.5);
+}  
+
+.footer .newsletter button {
+    border-radius: 30px;
+    background: linear-gradient(90deg, #3bd0d8, #2db7bd);
+    border: none;
+    padding: 10px 25px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 0 rgba(59, 208, 216, 0);
+    color: #fff;
+
+
+}
+
+.footer .newsletter button:hover {
+    background-color: #2db7bd;
+    background: linear-gradient(90deg, #2db7bd, #3bd0d8);
+    box-shadow: 0 0 12px rgba(59, 208, 216, 0.7);
+    transform: translateY(-2px);
+}
+
+.footer .footer-bottom h5{
+    color: #6b7280;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+
+@media (max-width: 576px) {
+    footer .newsletter form {
+        flex-direction: column;
+    }
+
+    footer .newsletter input[type="email"] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
 }

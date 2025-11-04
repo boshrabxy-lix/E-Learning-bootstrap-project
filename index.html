@@ -19,56 +19,53 @@
 </head>
 
 <body>
+  <header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg position-fixed w-100">
+      <div class="container-fluid">
+        <div>
+          <a class="navbar-brand" href="index.html">
+            <img src="./img/public/brand.logo.webp" alt="brand-photo">
+          </a>
+        </div>
 
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg position-fixed w-100">
-    <div class="container">
-      <div>
-        <a class="navbar-brand" href="index.html">
-          <img src="./img/public/brand.logo.webp" alt="brand-photo">
-        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Courses</a>
+            </li>
+
+            <li class="nav-item ">
+              <a class="nav-link" href="#"> Careers</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+          </ul>
+          <form class="d-flex btn-fix">
+            <button class="btn btn-fix logBtn text-black " href="Login.html">Login</button>
+            <button class="btn btn-fix signBtn text-white" href="rogister.html">Sign Up</button>
+          </form>
+        </div>
       </div>
-
-      <!-- menu icon -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-
-          <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="#">Courses</a>
-          </li>
-
-          <li class="nav-item ">
-            <a class="nav-link" href="#"> Careers</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="#">Blog</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="#">About Us</a>
-          </li>
-        </ul>
-        <form class="d-flex btn-fix">
-          <button class="btn btn-fix logBtn text-black " href="Login.html">Login</button>
-          <button class="btn btn-fix signBtn text-white" href="rogister.html">Sign Up</button>
-        </form>
-      </div>
-    </div>
-  </nav>
-
-  <main>
-
+    </nav>
+    <!-- hero -->
     <section class="hero vh-100">
       <div class="d-flex flex-column justify-content-center h-100">
         <div class="container-fluid">
@@ -80,8 +77,9 @@
         </div>
       </div>
     </section>
+  </header>
 
-
+  <main>
     <section class="Success">
       <div class="container">
         <h2>Our Success</h2>
@@ -124,8 +122,8 @@
 
     </section>
 
-    <section class="all-in-one">
 
+    <section class="all-in-one text-center">
       <h2>All-In-One<span>Cloud Software.</span></h2>
       <p class="p-style">TOTC is one powerful online software suite that combines all the tools needed to run a
         successful school or
@@ -145,7 +143,7 @@
             </div>
 
             <div class="box-allinone">
-              <img src="img/index-landing/allinone2.webp" alt="allinone2">
+              <img src="img/index-landing/allinone2.webp" alt="allinone2 "class="">
               <h3> Easy Scheduling & Attendance Tracking</h3>
               <p>Schedule and reserve classrooms at one campus or multiple campuses. Keep
                 detailed records of student attendance
@@ -159,16 +157,10 @@
                 helps organize your organization
               </p>
             </div>
-
-
           </div>
         </div>
-
       </div>
-
       </div>
-
-
     </section>
 
 
@@ -179,13 +171,13 @@
           course materials online; manage assignments, quizzes and exams; monitor due dates; grade results and provide
           students with feedback all in one place.</p>
 
-        <div class="d-flex box-style flex-wrap">
-          <div class="rectangle-wrapper group1">
+        <div class="cart d-flex box-style justify-content-center align-items-center">
+          <div class="rectangle-wrapper group1  flex-wrap ">
             <h2 class="h2-styles">FOR INSTRUCTORS</h2>
             <a class="div-a">Start a class today</a>
           </div>
 
-          <div class="rectangle-wrapper group2 ">
+          <div class="rectangle-wrapper group2 flex-wrap ">
             <h2>FOR STUDENTS</h2>
             <a class="div-a">enter access code</a>
           </div>
@@ -212,7 +204,7 @@
             </div>
 
             <div class="col-md-4">
-              <img src="" class="img-fluid rounded-start" alt="...">
+              <img src="./" class="img-fluid rounded-start" alt="...">
             </div>
 
           </div>
@@ -222,20 +214,44 @@
 
 
     <section class="our-features">
+      <h2>our <span>features</span></h2>
+      <p>This very extraordinary feature, can make learning activities more efficient</p>
       <div class="container">
         <div class="features">
           <div class="col-md-4">
-            <img src="" class="img-fluid rounded-start" alt="...">
+            <img src="" class="img-fluid rounded-start" alt="our-features image1">
           </div>
 
           <div class="card mb-3" style="max-width: 540px;">
             <div class="row g-0">
               <div class="col-md-8">
                 <div class="card-body">
-                  <h2 class="card-title">Everything you can do in a physical classroom, you can do with TOTC</h5>
-                    <p class="card-text">TOTC’s school management software helps traditional and online schools manage
-                      scheduling, attendance, payments and virtual classrooms all in one secure cloud-based system.</p>
-                    <a class="card-text"><small class="text-body-secondary">Learn more</small></a>
+                  <h2 class="card-title">A<span>user interface</span> designed for the classroom</h2>
+
+                  <div>
+                    <div>
+                      <img class="img-ditails" src="" alt="">
+                    </div>
+                    <p>Teachers don't get lost in the grid view and have a dedicated podium space.</p>
+                  </div>
+
+                  <div>
+                    <div>
+                      <img class="img-ditails" src="" alt="">
+                    </div>
+                    <p>TA's and presenters can be moved to the front of the class.</p>
+                  </div>
+
+                  <div>
+                    <div>
+                      <img class="img-ditails" src="" alt="">
+                    </div>
+
+                    <p>Teachers can easily see all students and class data at one time.</p>
+                  </div>
+
+
+
                 </div>
               </div>
 
@@ -325,8 +341,37 @@
 
 
 
-
+ 
   </main>
+
+
+
+  <footer class="footer text-center">
+    <div class="footer-logo d-flex justify-content-center align-items-center mb-3">
+      <img src="img/public/brand.logo.webp" alt="brand-photo Logo">
+      <div></div>
+      <p class="mb-4 align-items-start">Virtual Class <br />for Zoom</p>
+    </div>
+
+    <div class="newsletter mb-4">
+      <p>Subscribe to get our Newsletter</p>
+      <form class="d-flex justify-content-center flex-wrap">
+        <input type="email" placeholder="Your Email" required />
+        <button type="submit" class="ms-2 text-white">Subscribe</button>
+      </form>
+    </div>
+
+    <div class="mt-2">
+      <a href="#">Careers</a> |
+      <a href="#">Privacy Policy</a> |
+      <a href="#">Terms & Conditions</a>
+    </div>
+
+    <div class="footer-bottom mt-3">
+      <h5>© 2025 Class Technologies Inc.</h5>
+    </div>
+  </footer>
+
 
 
 
