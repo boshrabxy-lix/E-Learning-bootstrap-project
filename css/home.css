@@ -220,30 +220,143 @@
 .group1 {
     background-image: url(../../assetes/img/index-landing/whattottc1.webp);
     width: 600px;
-    height: 403px;
+    height: 383px;
     background-size: cover;
 }
 
 .group2 {
     background-image: url(../../assetes/img/index-landing/whattottc2.webp);
     width: 600px;
-    height: 403px;
+    height: 383px;
     background-size: cover;
 }
 
 
 /*  you-can-doit section*/
+.you-can-doittt {
+    justify-items: center;
+    text-align: center;
+    padding: 0 0 0 180px;
+}
+.you-can-doittt h2{
+    color:#2F327D;
+}
+.you-can-doittt span{
+    color:#00CBB8;
+}
+.you-can-doittt p{
+    color:#696984;
+    margin-top:30px;
+      line-height: 1.4;
+
+}
+.you-can-doittt a{
+    font-size:22px;
+    color:#696984;
+}
+.you-can-doit a:hover {
+  color: #00e0b0;
+}
 .you-can-doit {
     background-image: url(./../img/index-landing/You\ Can\ Do\ With\ TOTC.webp);
     text-align: left;
-    object-fit: fill;
-    width: 100%;
-    justify-items: center;
+}
+
+.you-can-doittt .card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.you-can-doittt .card-body {
+    flex: 1;
+    padding-right: 40px;
+}
+
+.you-can-doittt img.rounded-start {
+    width: 180%;
+    border-radius: 10px;
+
+}
+
+.you-can-doittt .play-btn{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    cursor: pointer;
+     transition: transform 0.3s ease;
+}
+
+.you-can-doit .play-btn:hover {
+  transform: translate(-50%, -50%) scale(1.1);
 }
 
 
+@media (max-width: 992px) {
+  .you-can-doit {
+    padding: 40px 30px;
+  }
+
+  .text-section {
+    padding-right: 0;
+    text-align: center;
+  }
+
+  .card-text {
+    margin: 0 auto 30px;
+  }
+
+  .main-img {
+    max-width: 100%;
+  }
+}
 
 
+@media (max-width: 768px) {
+  .title {
+    font-size: 1.9rem;
+  }
+
+  .desc {
+    font-size: 1rem;
+  }
+
+  .play-btn {
+    width: 65px;
+  }
+
+  .you-can-doittt {
+    padding: 70px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.6rem;
+    line-height: 1.3;
+  }
+
+  .desc {
+    font-size: 0.95rem;
+    padding: 0 10px;
+  }
+
+  .learn-more {
+    font-size: 0.9rem;
+  }
+
+  .main-img {
+    border-radius: 10px;
+  }
+
+  .play-btn {
+    width: 55px;
+  }
+}
 /* start our features section */
 .our-features {
     justify-content: center;
@@ -251,7 +364,14 @@
     justify-items: center;
     padding: 60px 0;
 }
+.our-features span{
+    color:#00CBB8;
 
+}
+.our-features .card{
+    outline:none;
+    border:none;
+}
 .img-ditails {
     box-shadow: ;
     border-radius: 50px;
@@ -345,8 +465,8 @@
 }
 
 .image-wrapper-sm img {
-    width: 120px;
-    height: 80px;
+    width: 180px;
+    height: 120px;
     object-fit: cover;
     transition: transform 0.4s ease;
 }
@@ -354,8 +474,9 @@
 .news-item:hover img {
     transform: scale(1.08);
 }
-.news-item-span{
- background-color: #49BBBD;
+
+.news-item-span {
+    background-color: #49BBBD;
     padding: 4px 22px;
     border-radius: 50px;
     font-size: 18px;

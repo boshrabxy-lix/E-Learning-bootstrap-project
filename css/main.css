@@ -39,10 +39,17 @@ body{
 .footer .footer-logo {
     gap: 25px;
 }
+.footer .footer-logo .margin-pin {
+    margin: initial;
+    align-items: start;
+}
 
-.footer .footer-logo::after {
-    width: 10px;
-    color: #fff;
+.footer .footer-logo .line::after {
+  content: "";
+  width: 1px;
+  height: 83px;
+  background-color: #626381;
+  display: block;
 }
 
 .footer .footer-logo img {
@@ -73,7 +80,9 @@ body{
     text-shadow: 0 0 8px rgba(59, 208, 216, 0.6);
 
 }
-
+.footer .newsletter{
+    text-align:center;
+}
 .footer .newsletter input {
     border-radius: 30px;
     padding: 10px 15px;
