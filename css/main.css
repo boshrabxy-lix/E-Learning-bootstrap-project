@@ -19,8 +19,8 @@ body{
     width:100%;
     padding-right: calc(var(--bs-gutter-x) * .5);
     padding-left: calc(var(--bs-gutter-x) * .5);
-    margin-right: 120px;
-    margin-left: 120px;
+    margin-right:auto;
+    margin-left:auto;
     margin-top: 15px;
     margin-bottom: 15px;
   
