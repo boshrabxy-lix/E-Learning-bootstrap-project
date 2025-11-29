@@ -33,6 +33,7 @@
     background-image: url(../img/index-landing/Header.webp);
     background-size: cover;
     width: 100%;
+    background-position: 70% 95px;
 
 }
 
@@ -60,7 +61,7 @@
     margin: 0 10px 0 0;
     height: 40px;
     cursor: pointer;
-
+    width: inherit;
 }
 
 .hero .a-style {
@@ -212,7 +213,7 @@
 
 .all-in-one h3 {
     position: relative;
-    bottom: 50px;
+    bottom: 68px;
     font-size: 30px;
     color: #2F327D;
 
@@ -222,10 +223,14 @@
     color: #696983;
     font-size: 20px;
     font-weight: 400;
+
+    line-height: 1.7;
+}
+
+.box-allinone .div-allinone .all-in-one p {
     padding: 24px 55px 50px 55px;
     position: relative;
-    top: -36px;
-    line-height: 1.7;
+    bottom: 70px;
 }
 
 .all-in-one .box-allinone img {
@@ -796,7 +801,6 @@
 
 .image-wrapper-sm {
     flex-shrink: 0;
-    overflow: hidden;
     border-radius: 8px;
 }
 
@@ -815,7 +819,11 @@
     background-color: #49BBBD;
     padding: 4px 22px;
     border-radius: 50px;
-    font-size: 18px;
+    font-size: 15px;
+    z-index: 50;
+    bottom: 4px;
+    right: 0px;
+    white-space: nowrap;
 }
 
 
@@ -850,7 +858,7 @@
 }
 
 .testimonial-section .row .row-line::before {
-    content:" ";
+    content: " ";
     width: 25px;
     height: 1px;
     background-color: #696983;
