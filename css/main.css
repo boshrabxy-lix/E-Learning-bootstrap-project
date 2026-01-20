@@ -1,4 +1,5 @@
 :root {
+<<<<<<< HEAD
     --primar-color: var(#49BBBD);
     --second-color: var(#49bbbda6);
     --mainfont: 'Poppins', sans-serif ,"Poppins-Bold", Helvetica;
@@ -8,6 +9,18 @@ body{
    font-family: var(--mainfont);
    
 }
+=======
+    --primar-color: #49BBBD;
+    --second-color: #49bbbda6;
+    --mainfont: 'Poppins', sans-serif, "Poppins-Bold", Helvetica;
+}
+
+body {
+    font-family: var(--mainfont);
+
+}
+
+>>>>>>> 50928bc (dark-light moods)
 .container,
 .container-fluid,
 .container-md,
@@ -16,6 +29,7 @@ body{
 .container-xxl {
     --bs-gutter-x: 4.5rem;
     --bs-gutter-y: 0;
+<<<<<<< HEAD
     width:100%;
     padding-right: calc(var(--bs-gutter-x) * .5);
     padding-left: calc(var(--bs-gutter-x) * .5);
@@ -24,6 +38,16 @@ body{
     margin-top: 15px;
     margin-bottom: 15px;
   
+=======
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+>>>>>>> 50928bc (dark-light moods)
 }
 
 
@@ -39,21 +63,37 @@ body{
 .footer .footer-logo {
     gap: 25px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 50928bc (dark-light moods)
 .footer .footer-logo .margin-pin {
     margin: initial;
     align-items: start;
 }
 
 .footer .footer-logo .line::after {
+<<<<<<< HEAD
   content: "";
   width: 1px;
   height: 83px;
   background-color: #626381;
   display: block;
+=======
+    content: "";
+    width: 1px;
+    height: 83px;
+    background-color: #626381;
+    display: block;
+>>>>>>> 50928bc (dark-light moods)
 }
 
 .footer .footer-logo img {
     width: 90px;
+<<<<<<< HEAD
+=======
+    height: auto;
+>>>>>>> 50928bc (dark-light moods)
     transition: transform 0.3s ease;
 }
 
@@ -76,6 +116,7 @@ body{
 }
 
 .footer a:hover {
+<<<<<<< HEAD
     color: #3bd0d8;
     text-shadow: 0 0 8px rgba(59, 208, 216, 0.6);
 
@@ -83,6 +124,17 @@ body{
 .footer .newsletter{
     text-align:center;
 }
+=======
+    color: var(--primar-color);
+    text-shadow: 0 0 8px rgba(59, 208, 216, 0.6);
+
+}
+
+.footer .newsletter {
+    text-align: center;
+}
+
+>>>>>>> 50928bc (dark-light moods)
 .footer .newsletter input {
     border-radius: 30px;
     padding: 10px 15px;
@@ -96,7 +148,11 @@ body{
 
 .footer .newsletter input:focus {
     box-shadow: 0 0 8px rgba(59, 208, 216, 0.5);
+<<<<<<< HEAD
 }  
+=======
+}
+>>>>>>> 50928bc (dark-light moods)
 
 .footer .newsletter button {
     border-radius: 30px;
@@ -106,8 +162,12 @@ body{
     transition: all 0.3s ease;
     box-shadow: 0 0 0 rgba(59, 208, 216, 0);
     color: #fff;
+<<<<<<< HEAD
 
 
+=======
+    cursor: pointer;
+>>>>>>> 50928bc (dark-light moods)
 }
 
 .footer .newsletter button:hover {
@@ -117,7 +177,11 @@ body{
     transform: translateY(-2px);
 }
 
+<<<<<<< HEAD
 .footer .footer-bottom h5{
+=======
+.footer .footer-bottom h5 {
+>>>>>>> 50928bc (dark-light moods)
     color: #6b7280;
     font-size: 14px;
     margin-top: 15px;
