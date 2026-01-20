@@ -43,6 +43,7 @@
 
 .logBtn {
     background-color: #fff;
+    box-shadow: 0 3px 2px 3px rgba(0, 0, 0, 0.294);
 }
 
 .signBtn {
@@ -58,7 +59,7 @@
 }
 
 .signBtn:hover {
-    background-color: #fff;
+    background-color: #ffffff74;
     color: #000;
 }
 
@@ -202,7 +203,7 @@
 /* end success */
 /* start aii-in-one section */
 .all-in-one {
-    padding: 120px 0 100px;
+    padding: 90px 0 100px;
     justify-items: center;
     background-color: transparent;
 }
@@ -221,7 +222,7 @@
     padding: 160px 0 160px 0;
     flex: 1 0 300px;
     justify-content: center;
-    background-color: #ffffff;
+    background-color: transparent;
 }
 
 .boxes {
@@ -232,7 +233,6 @@
 .box-allinone {
     width: 450px;
     height: 420px;
-    background-color: #ffffff;
     background-color: #ffffff8d;
     border-radius: 20px;
     margin-bottom: 60px;
@@ -358,7 +358,6 @@
     color: #fff;
     align-items: center;
     background-position: center;
-    background-size: cover;
     transition: transform 0.4s ease;
     border-radius: 10px;
 }
