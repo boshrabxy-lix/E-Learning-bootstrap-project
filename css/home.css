@@ -199,7 +199,6 @@
     }
 }
 
-
 /* end success */
 /* start aii-in-one section */
 .all-in-one {
@@ -774,13 +773,11 @@
 .latest-news-section {
     justify-content: center;
     justify-items: center;
-
 }
 
 .latest-news-section p {
     color: #696984;
     margin-bottom: 20px;
-
 }
 
 .latest-news-section h2 {
