@@ -258,7 +258,10 @@
     font-size: 20px;
     font-weight: 400;
     line-height: 1.7;
+    position: relative;
+    margin-inline: auto;
 }
+
 
 .box-allinone .div-allinone .all-in-one p {
     padding: 24px 55px 50px 55px;

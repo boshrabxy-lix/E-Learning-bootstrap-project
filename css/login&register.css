@@ -43,7 +43,12 @@ p {
     padding: 15px;
     border-color: #49bbbd;
 }
-
+.nameError .text-danger ,
+.EmailError .text-danger,
+.PassError .text-danger,p {
+    margin: 20px;
+    margin-bottom: 10px;
+}
 .nav-tabs .nav-link {
     border: none;
     color: #FFF;
@@ -55,7 +60,6 @@ p {
     color: white;
     border: none;
     border-radius: 20px;
-
 }
  .login-acte{
     margin-left: 15px;
